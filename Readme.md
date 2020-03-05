@@ -20,7 +20,8 @@ Happy flow is tested for the site
 ### Getting started (Automated test cases)
 - Replace value of `self.chrome_driver` with your own chrome driver path in `WebDriver.py`
 - Open terminal in the project folder.
-- Run `pytest ExpenseTrackerTestCases.py`
+- Run `pytest ExpenseTrackerTestCases.py` for positive test cases.
+- Run `pytest ExpenseTrackerNegativeTestCases.py` for negative test cases.
 
 ### Getting Started (manual test cases)
 - Open `Expense Tracker.xlsx` file in project folder
